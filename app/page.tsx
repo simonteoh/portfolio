@@ -12,7 +12,7 @@ export default function Home() {
       <section className='px-4 lg:px-0'>
         <div className='md:mt-0 lg:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen'>
           <div className='sm:text-center lg:text-left'>
-            <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white md:text-6xl'>Hi I&aposm Simon 👋</h1>
+            <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white md:text-6xl'>Hi I&apos;m Simon 👋</h1>
             <TypeAnimation
               className='text-blue-500 md:text-5xl'
               sequence={[
