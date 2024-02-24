@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Bizedge",
+        "image": "/images/bizedge.png",
+        "desc": "Business Website for recruitment agency to gain trust from the potential clients in LinkedIn.",
+        "status": "active",
+        "techStacks": [
+            {
+                "name": "WordPress",
+                "logo": ""
+            },
+            {
+                "name": "Javascript",
+                "logo": ""
+            }
+        ]
+    },
+    {
+        "name": "Blackdash",
+        "image": "/images/blackdash.png",
+        "desc": "IT Service Provider website with 3D animation for the website.",
+        "status": "active",
+        "techStacks": [
+            {
+                "name": "Next.js",
+                "logo": ""
+            },
+            {
+                "name": "Tailwind CSS",
+                "logo": ""
+            }
+        ]
+    }
+]
