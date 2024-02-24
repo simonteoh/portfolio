@@ -42,9 +42,9 @@ export default function Home() {
           <div>
             <p className='text-blue-500 text-xl md:text-3xl font-extrabold mt-12'>Technologies and tools</p>
             <div className='flex flex-wrap mt-8 justify-between'>
-              {skills.map((skill) => {
+              {skills.map((skill, index) => {
                 return (
-                  <div key={skill.name} className='py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40'>
+                  <div key={index} className='py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40'>
                     <Image src={skill.icon} alt={skill.name} className="w-[48px] h-[48px]" width={0} height={0} loading='lazy' />
                     <h4 className='text-md ml-4'>{skill.name}</h4>
                   </div>
@@ -57,9 +57,9 @@ export default function Home() {
         <div id='projects' className='lg:px-12'>
           <h1 className='text-black dark:text-white text-4xl md:text-6xl font-extrabold text-center mt-12'>Projects</h1>
           <div className='flex flex-wrap gap-24 md:p-24'>
-            {projects.map((project) => {
+            {projects.map((project, index) => {
               return (
-                <div key={project.name} className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div key={index} className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <Image src={project.image} alt={project.name} className='w-full h-auto' width={500} height={500} />
                   <div className="p-5">
                     <a href="#">
