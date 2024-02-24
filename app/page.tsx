@@ -12,7 +12,7 @@ export default function Home() {
       <section className='px-4 lg:px-0'>
         <div className='md:mt-0 lg:px-12 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen'>
           <div className='sm:text-center lg:text-left'>
-            <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white md:text-6xl'>Hi I'm Simon 👋</h1>
+            <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white md:text-6xl'>Hi I&aposm Simon 👋</h1>
             <TypeAnimation
               className='text-blue-500 md:text-5xl'
               sequence={[
@@ -59,7 +59,7 @@ export default function Home() {
           <div className='flex flex-wrap gap-24 md:p-24'>
             {projects.map((project) => {
               return (
-                <div className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div key={project.name} className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <Image src={project.image} alt={project.name} className='w-full h-auto' width={500} height={500} />
                   <div className="p-5">
                     <a href="#">
