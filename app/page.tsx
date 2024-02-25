@@ -82,7 +82,7 @@ export default function Home() {
         <div id='contact' className='lg:px-12'>
           <h1 className='text-black dark:text-white text-4xl md:text-6xl font-extrabold text-center my-12'>Contact</h1>
           <div className='flex flex-wrap gap-24 md:p-24'>
-            <div><h4 className="text-3xl font-semibold text-blue-500">Connect with me</h4><p className="text-gray-500 text-xl">If you want to know more about me or my work, or if you would just<br />like to say hello, send me a message. I'd love to hear from you.</p></div>
+            <div><h4 className="text-3xl font-semibold text-blue-500">Connect with me</h4><p className="text-gray-500 text-xl">If you want to know more about me or my work, or if you would just<br />like to say hello, send me a message. I&apos;d love to hear from you.</p></div>
           </div>
           <div className='flex flex-col gap-4 text-xl text-black dark:text-white mt-12 '>
             <div className='flex gap-4'>
