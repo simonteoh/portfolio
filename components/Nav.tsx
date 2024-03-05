@@ -21,7 +21,7 @@ export default function Nav() {
     }
     return (
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-xl flex flex-wrap md:flex-nowrap items-center justify-between mx-auto p-4">
                 <Image src={"/images/simonlogo.png"} alt='simon portfolio' width={150} height={150} />
                 <button
                     type="button"
@@ -46,7 +46,7 @@ export default function Nav() {
                     </svg>
                 </button>
                 <div className={`${isOpen ? "" : "hidden"} w-full md:block md:w-auto" id="navbar-default"`}>
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="font-medium flex flex-col md:justify-end p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         {links.map((link, index) => {
                             return (
                                 <li key={index}>
