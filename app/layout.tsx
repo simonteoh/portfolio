@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  ReactGA.initialize("G-45J6BQ9JRD");
+  ReactGA.initialize("G-2BGZTZXRNN");
   ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
 
   // Send a custom event
