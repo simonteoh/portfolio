@@ -20,7 +20,15 @@ export default function RootLayout({
 }>) {
 
   ReactGA.initialize("G-45J6BQ9JRD");
+  ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
 
+  // Send a custom event
+  ReactGA.event({
+    category: "your category",
+    action: "your action",
+    label: "your label", // optional
+    value: 99, // optional, must be a number
+  });
   return (
     <html lang="en" className="dark">
       <body className={roboto.className}>{children}</body>

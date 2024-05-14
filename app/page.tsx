@@ -11,15 +11,7 @@ import Project from '@/components/Project';
 import ReactGA from "react-ga4";
 
 export default function Home() {
-  ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
-
-  // Send a custom event
-  ReactGA.event({
-    category: "your category",
-    action: "your action",
-    label: "your label", // optional
-    value: 99, // optional, must be a number
-  });
+ 
   return (
     <main className='bg-white dark:bg-slate-800'>
       <Nav />
