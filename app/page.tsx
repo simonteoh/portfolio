@@ -8,8 +8,18 @@ import { useGSAP } from "@gsap/react";
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Project from '@/components/Project';
-export default function Home() {
+import ReactGA from "react-ga4";
 
+export default function Home() {
+  ReactGA.send({ hitType: "pageview", page: "/", title: "Home page" });
+
+  // Send a custom event
+  ReactGA.event({
+    category: "your category",
+    action: "your action",
+    label: "your label", // optional
+    value: 99, // optional, must be a number
+  });
   return (
     <main className='bg-white dark:bg-slate-800'>
       <Nav />
@@ -34,9 +44,9 @@ export default function Home() {
           </div>
           <Image src={"/web_dev_image.svg"} alt='web development' className="w-[500px] h-[500px]" width={0} height={0} priority />
         </div>
-        <About/>
-        <Project/>
-        <Contact/>
+        <About />
+        <Project />
+        <Contact />
       </section>
     </main>
   );
