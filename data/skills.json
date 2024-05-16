@@ -1,54 +1,54 @@
 [
     {
         "name": "React",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+        "icon": "/icons/react.svg"
     },
     {
         "name": "Next.js",
-        "icon": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+        "icon": "/icons/nextjs.svg"
     },
     {
         "name": "Tailwind CSS",
-        "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+        "icon": "/icons/tailwind.svg"
     },
     {
         "name": "HTML5",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        "icon": "/icons/html.svg"
     },
     {
         "name": "CSS",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+        "icon": "/icons/css.svg"
     },
     {
         "name": "Javascript",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        "icon": "/icons/javascript.svg"
     },
     {
         "name": "Typescript",
-        "icon": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+        "icon": "/icons/typescript.svg"
     },
     {
         "name": "MySQL",
-        "icon": "https://cdn.worldvectorlogo.com/logos/mysql-logo.svg"
+        "icon": "/icons/mysql.svg"
     },
     {
         "name": "Laravel",
-        "icon": "https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
+        "icon": "/icons/laravel.svg"
     },
     {
         "name": "PHP",
-        "icon": "https://cdn.worldvectorlogo.com/logos/php-logo-only-letter-2.svg"
+        "icon": "/icons/php.svg"
     },
     {
         "name": "Flutter",
-        "icon": "https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
+        "icon": "/icons/flutter.svg"
     },
     {
         "name": "Git",
-        "icon": "https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+        "icon": "/icons/git.svg"
     },
     {
         "name": "MongoDB",
-        "icon": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg"
+        "icon": "/icons/mongodb.svg"
     }
 ]
